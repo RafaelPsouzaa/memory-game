@@ -1,4 +1,8 @@
 const input = document.querySelector('.login-input');
 const button = document.querySelector('.login-button');
 
-input.addEventListener('input',validateInput);
+const validarInput = (event)=>{
+    console.log(event.target);
+}
+
+input.addEventListener('input',validarInput);
