@@ -24,5 +24,11 @@
 }
 
 .back{
-    background-color: blue;
+    background-image: url('../assets/back.png');
+    background-size: cover;
+    background-position: center;
+
+}
+.card:hover{
+    transform: rotateY(180deg);
 }
